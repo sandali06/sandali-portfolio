@@ -1,2 +1,71 @@
-# sandali-portfolio
-This simple, responsive portfolio website showcases Sandali’s graphic design work. It includes Home, About, and Contact pages with a clean layout and easy navigation. Visitors can learn about Sandali’s skills and reach out via the contact form. Ideal for a beginner’s web development project. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandali's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sandali's Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to My Creative Space</h2>
+    <p>Hello! I'm Sandali, a passionate graphic designer. Explore my portfolio and get to know my creative world.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I specialize in digital and print design. With years of experience using tools like Adobe Photoshop, Illustrator, and Figma, I bring ideas to life through design. My journey started with a love for visual storytelling and has grown into a fulfilling profession.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work together or have any questions, feel free to reach out.</p>
+    <form>
+      <label>Name:<br /><input type="text" name="name" /></label><br /><br />
+      <label>Email:<br /><input type="email" name="email" /></label><br /><br />
+      <label>Message:<br /><textarea name="message"></textarea></label><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Sandali Perera. All rights reserved.
+  </footer>
+</body>
+</html>

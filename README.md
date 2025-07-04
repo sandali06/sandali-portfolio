@@ -39,6 +39,7 @@
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
+      <a href="#theme">Theme</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -51,6 +52,12 @@
   <section id="about">
     <h2>About Me</h2>
     <p>I specialize in digital and print design. With years of experience using tools like Adobe Photoshop, Illustrator, and Figma, I bring ideas to life through design. My journey started with a love for visual storytelling and has grown into a fulfilling profession.</p>
+  </section>
+
+  <section id="theme">
+    <h2>Theme Selection and Scenario</h2>
+    <p>I selected the <strong>Astra</strong> theme for my WordPress website because it is a lightweight, highly customizable, and beginner-friendly theme. Astra offers excellent speed performance and seamless integration with page builders like Elementor, which makes designing easy without needing to code.</p>
+    <p>For my scenario — a <strong>personal portfolio website</strong> — Astra is perfect because it provides clean, modern layouts that highlight projects, skills, and contact information professionally. Its responsive design and SEO compatibility make it ideal for showcasing a professional identity online.</p>
   </section>
 
   <section id="contact">

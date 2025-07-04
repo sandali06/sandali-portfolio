@@ -71,6 +71,17 @@
     </form>
   </section>
 
+  <section id="figma-preview" style="padding: 2rem; text-align: center; background: #fff; margin: 2rem 0;">
+    <h2>Figma Wireframe Preview</h2>
+    <iframe
+      style="border: 1px solid #ccc; border-radius: 8px;"
+      width="800"
+      height="450"
+      src="https://www.figma.com/embed?embed_host=share&url=YOUR_FIGMA_FILE_URL"
+      allowfullscreen>
+    </iframe>
+  </section>
+
   <footer>
     &copy; 2025 Sandali Perera. All rights reserved.
   </footer>
